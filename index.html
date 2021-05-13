@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content=
+"width=device-width, initial-scale=1">
+<title>codestep_中級2</title>
+<link rel="icon" href="a.png">
+<link href="中級2_公開用.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="link">
+    <ul >
+      <li><a id="link-menu">MENU</a></li>
+      <li><a id="link-about">ABOUT</a></li>
+      <li><a id="link-location">LOCATION</a></li>
+    </ul>
+  </div>
+  <div class="main">
+
+    <div class="black">
+    </div>
+
+    <h1 id="alien">ALIEN</h1>
+  </div>
+</header>
+<main>
+  <div class="title" id="menu">
+    <h2>MENU</h2>
+  </div>
+  <div class="menu">
+    <div class="inner">
+      <div class="boxs">
+        <div class="box">
+          <div class="box-inner">
+            <h3>COFFEE</h3>
+            <ul>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-inner">
+            <h3>FOOD</h3>
+            <ul>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+            </ul>
+            <div class="empty"></div>
+            <h3>OTHER</h3>
+            <ul>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+              <li><p>XXXXXXXX</p><span>¥500</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="title" id="about">
+    <h2>ABOUT</h2>
+  </div>
+  <div class="about">
+    <div class="inner">
+      <h3>COFFEE</h3>
+      <div class="boxs">
+        <div class="box">
+          <p>コーディング学習サイト「Codestep」様の中級編練習サイト「COFFEE - Cafe」の模写コーディングです。 カフェなど飲食店のホームページ作成演習として。<br>
+            映画『エイリアン』シリーズの画像を使用していますが、あくまでカフェのHPです。たまたまの画像のチョイスです。</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+        <div class="box">
+          <p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+      </div>
+      <a class="button" href="#">Read More</a>
+    </div>
+  </div>
+  <div class="title" id="location">
+    <h2>LOCATION</h2>
+  </div>
+  <div class="location">
+    <div class="inner">
+      <h3>OUR STORE</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6010676864!2d-118.41414826923422!3d34.054103021623256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29cbcc53b3965%3A0xe2d741468d453b5c!2s20th%20Century%20Fox!5e0!3m2!1sja!2sjp!4v1620787361961!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <p>特に意味はありませんが、20th Century Foxのホーム場所を表示しています。<br>
+        アメリカ合衆国　カリフォルニア州　ロサンゼルス<br><br>
+        Open 114514 days a Week<br>
+        0:00am to 0:00pm<br><br>
+        Tel : XX-XXXX-XXXX</p>
+    </div>
+  </div>
+</main>
+<footer>
+  &copy;2021-kamu_Yasiro
+</footer>
+
+<div id="top"><a href="#">Top</a></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+  $(function() {
+    var pagetop = $('#top');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+
+    var menu=$('#menu').offset().top;
+    $('#link-menu').click(function(){
+      $('html,body').animate({'scrollTop':menu},'1000');
+    });
+    var about=$('#about').offset().top;
+    $('#link-about').click(function(){
+      $('html,body').animate({'scrollTop':about},'1000');
+    });
+    var location=$('#location').offset().top;
+    $('#link-location').click(function(){
+      $('html,body').animate({'scrollTop':location},'1000');
+    });
+
+    $('.link').hide()
+    $('#alien').hide()
+    $('.black').show().fadeOut(1000,function(){
+
+      $('.link').fadeIn(2000);
+      $('#alien').fadeIn(2000);
+    });
+
+
+});
+</script>
+
+</body>
+</html>
