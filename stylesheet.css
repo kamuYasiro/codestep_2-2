@@ -149,6 +149,7 @@ header h1{
   background-image:url(Alien_movie_Alien_Resurrection_Prometheus_movie_facehugger_Xenomorph_Engineer_Alien_Covenant_galaxy-1425109.jpg);
   background-size:cover;
   background-attachment: fixed;
+    background-position:center;
 }
 .title h2{
   font-size:60px;
@@ -161,7 +162,7 @@ li{
   list-style:none;
 }
 .inner{
-  width:1000px;
+  width:100%;
   margin:0 auto;
   padding:0 16px;
 }
@@ -213,6 +214,7 @@ li{
   background-image:url(wallpaperbetter.com_1920x1080.jpg);
   background-size:cover;
   background-attachment: fixed;
+    background-position:center;
 }
 .about{
   text-align:center;
@@ -244,6 +246,7 @@ li{
   background-image:url(206774-warlock2.jpg);
   background-size:cover;
   background-attachment: fixed;
+    background-position:center;
 }
 .location{
   text-align:center;
@@ -341,4 +344,10 @@ header h1{
   #menu,#about,#location{
     background-position-x:-600px;
   }
+}
+
+@media(max-width:480px){
+    header h1{
+     font-size:60px;   
+    }
 }
