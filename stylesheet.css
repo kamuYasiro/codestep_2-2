@@ -344,6 +344,12 @@ header h1{
   #menu,#about,#location{
     background-position-x:-600px;
   }
+    .boxs{
+     flex-wrap:wrap;   
+    }
+    .boxs .box{
+     widtg:100%;   
+    }
 }
 
 @media(max-width:480px){
