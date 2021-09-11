@@ -164,7 +164,6 @@ li{
 .inner{
   width:100%;
   margin:0 auto;
-  padding:0 16px;
 }
 .menu,.about,.location{
   padding:90px 0;
@@ -254,6 +253,7 @@ li{
 .location p{
   text-align: left;
   line-height:1.5;
+  padding:0 16px;
 }
 .location iframe{
   display:block;
