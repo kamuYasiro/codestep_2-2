@@ -167,6 +167,8 @@ li{
 }
 .menu,.about,.location{
   padding:90px 0;
+    width:1000px;
+    margin:0 auto;
 }
 .boxs{
   display:flex;
